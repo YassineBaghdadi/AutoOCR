@@ -34,7 +34,7 @@ class Counter(QtWidgets.QWidget):
             self.started = False
             time_ = strftime("%H:%M:%S", gmtime(self.end - self.startTime))
             self.co.setText(f'Time : {time_}')
-            
+            """
             if not os.path.exists(os.path.join(DESKTOP, 'training')):
                 os.makedirs(os.path.join(DESKTOP, 'training'))
             with open(os.path.join(DESKTOP, 'training', 'logs.txt'), 'a') as f:
@@ -42,7 +42,7 @@ class Counter(QtWidgets.QWidget):
                 """
             with open('logs.txt', 'a') as f:
                 f.write(f'{str(strftime(f"%d-%m-%Y %H:%M:%S", gmtime()))}  -- >  Time : {time_}, Errors : {str(24 - score)}, Accuracy : {(score/24)*100}%\n')
-                """
+                
         else:
             self.startTime = time.time()
 
