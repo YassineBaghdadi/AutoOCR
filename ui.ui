@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>986</width>
+    <height>684</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="Line" name="line">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLineEdit" name="c1"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="c4"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLineEdit" name="c5"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="c18"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLineEdit" name="c8"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="c9"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLineEdit" name="c2"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLineEdit" name="c3"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="c10"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLineEdit" name="c6"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLineEdit" name="c7"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="c17"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="c19"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="c20"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="c21"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="c22"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="c23"/>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLineEdit" name="c24"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="c16"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="c15"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="c14"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="c13"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="c12"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="c11"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="5" column="2">
+      <widget class="QLabel" name="l19">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="l16">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="l3">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="l13">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLabel" name="l20">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="l2">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="l9">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="l8">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="l12">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="l22">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="l21">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="l18">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="l10">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="l6">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLabel" name="l24">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="l7">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="l5">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="l1">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLabel" name="l23">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="l4">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="l17">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="l14">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="l11">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="l15">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>c1</tabstop>
+  <tabstop>c2</tabstop>
+  <tabstop>c3</tabstop>
+  <tabstop>c4</tabstop>
+  <tabstop>c5</tabstop>
+  <tabstop>c6</tabstop>
+  <tabstop>c7</tabstop>
+  <tabstop>c8</tabstop>
+  <tabstop>c9</tabstop>
+  <tabstop>c10</tabstop>
+  <tabstop>c11</tabstop>
+  <tabstop>c12</tabstop>
+  <tabstop>c13</tabstop>
+  <tabstop>c14</tabstop>
+  <tabstop>c15</tabstop>
+  <tabstop>c16</tabstop>
+  <tabstop>c17</tabstop>
+  <tabstop>c18</tabstop>
+  <tabstop>c19</tabstop>
+  <tabstop>c20</tabstop>
+  <tabstop>c21</tabstop>
+  <tabstop>c22</tabstop>
+  <tabstop>c23</tabstop>
+  <tabstop>c24</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
